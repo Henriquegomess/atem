@@ -48,7 +48,6 @@ function Home(darkMode, setDarkMode) {
         <Grid container m={3} spacing={2}>
         <Grid item xs={2.5} spacing={2}>
                 <h2 className={classes.h2}>Não programados</h2>
-                {/* <img className={classes.retangulo} src='/images/retangulo.png' alt='logo' width="120px"/> */}
                 <Tables/>
             </Grid>
             <Grid item xs={2.5} spacing={2}>
@@ -59,14 +58,6 @@ function Home(darkMode, setDarkMode) {
                 <h2 className={classes.h2}>Em faturamento(na base)</h2>
                 <Tables/>
             </Grid>
-            {/* <Grid item xs={2.5} spacing={2}>
-                <h2 className={classes.h2}>Em carregamento</h2>
-                <Tables/>
-            </Grid>
-            <Grid item xs={2.5} spacing={2}>
-                <h2 className={classes.h2}>Carregados</h2>
-                <Tables/>
-            </Grid> */}
         </Grid>
       </Box>
       <Toolbar/>
